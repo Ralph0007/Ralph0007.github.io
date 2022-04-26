@@ -1,0 +1,333 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+@media(min-width:760px){
+ 
+ 
+
+ body{
+ font-size: 14px;
+ /* font-family: Arial, Helvetica, sans-serif; */
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannerzero{
+ display: flex;
+ padding-top:20px ;
+}
+/* .rhead{
+ justify-content: flex-end;
+} */
+ .bannerone{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 50px;
+  display: flex;
+ }
+ .bannertwo{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+ }
+ 
+ .bannerthree{
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  /* text-align: center; */
+  /* align-items: flex-start; */
+  justify-content: center;
+  
+ }
+ .bannerfour{
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  justify-content: space-between;
+  
+ }
+ 
+ .bannersix{
+  display: flex;
+  background: hsl(216, 53%, 9%);
+  transform: translateY(200px);
+  height: 500px;
+  margin-bottom: -10px;
+  position: relative;
+  padding-top: 200px;
+
+ }
+}
+
+
+
+/* @media(max-width:1440px){
+ body{
+ font-size: 14px;
+
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannerzero{
+ display: flex;
+ padding-top:20px ;
+}
+
+ .bannerone{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 50px;
+  display: flex;
+ }
+ .bannertwo{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+ }
+ 
+ .bannerthree{
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+ 
+ }
+ .bannerfour{
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  justify-content: space-between;
+ 
+ }
+
+} */
+
+body{
+ background: hsl(218, 28%, 13%);
+}
+a
+{
+ text-decoration: none;
+ color: hsl(0, 0%, 100%);
+}
+.lhead{
+ font-size: 24px;
+ color: hsl(0, 0%, 100%);
+ margin: 0 0 0 0;
+ background: hsl(217, 28%, 15%);
+ flex: 2;
+
+}
+
+.rhead{
+ color: hsl(0, 0%, 100%);
+ float: right;
+ font-size: 14px;
+ word-spacing: 90px;
+}
+
+.dintro{
+ color: hsl(0, 0%, 100%);
+ box-sizing: border-box;
+ 
+}
+
+.fintro{
+ padding-left: 0%;
+}
+.ointro{
+ padding-left: 75%;
+}
+
+header{
+ text-align: center;
+}
+.intro{
+ /* text-indent: 500px; */
+ font-weight: 700;
+ font-size: 24px;
+ color: hsl(0, 0%, 100%);
+ font-family:'Raleway', sans-serif;
+}
+
+.pintro{
+ font-weight: 400;
+ color: hsl(0, 0%, 100%);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.bintro{
+ width: 250px;
+ height: 50px;
+ border-radius:23px;
+ color: hsl(0, 0%, 100%);
+ /* background-color: hsl(198, 60%, 50%); */
+ border: none;
+ margin-top: 20px;
+ background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.aintro{
+ width: 220px;
+ height: 50px;
+ border-radius:23px;
+ /* color: hsl(0, 0%, 100%); */
+ color: black;
+ background:hsl(0, 0%, 100%);
+ border: none;
+ padding-left: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* .banner{
+ color: white;
+ text-align: center;
+ padding: 50px;
+} */
+
+/* .bannerone{
+ color: white;
+ text-align: center;
+ padding: 50px;
+ display: flex;
+}
+.bannertwo{
+ color: white;
+ text-align: center;
+ padding: 50px;
+ display: flex;
+ justify-content: flex-start;
+} */
+
+.sone{
+ padding: 50px;
+ flex: 2;
+}
+.stwo{
+ padding: 40px;
+ flex: 2;
+}
+.sthree{
+ padding: 50px;
+ flex: 2;
+}
+.sfour{
+ padding: 55px;
+ flex: 2;
+}
+
+
+/* .bannerfour{
+ display: flex;
+ color: white;
+ justify-content: space-between;
+ 
+} */
+.people{
+ border-radius: 50%;
+ width: 50px;
+ 
+}
+.bannerfive{
+ 
+ color: hsl(0, 0%, 100%);
+ text-align: center;
+ background: hsl(216, 53%, 9%);
+ border-radius: 15px;
+ padding: 40px;
+ margin: 20px;
+ position: absolute;
+ z-index: 1;
+}
+.sfive{
+ flex: 1;
+ 
+}
+
+.ssix{
+ flex: 1;
+ justify-content: flex-start;
+ padding: 30px;
+}
+
+.sseven{
+width: 90%;
+/* border: 2px solid white; */
+background: hsl(219, 30%, 18%);
+margin-left: 30px;
+border-radius: 5px;
+
+/* flex: 1; */
+
+}
+
+.seight{
+ /* border: 2px solid white; */
+ width: 90%;
+ /* flex: 1; */
+ margin-left: 30px;
+ background: hsl(219, 30%, 18%);
+ border-radius: 5px;
+ 
+}
+.snine{
+ width: 90%;
+ /* flex: 1; */
+ margin-left: 30px;
+ /* border: 2px solid white; */
+ background: hsl(219, 30%, 18%);
+ border-radius: 5px;
+
+}
+
+.afylo{
+ word-spacing: 2px;
+ text-decoration: none;
+ color: hsl(180, 100%, 50%);
+}
+
+.pfylo{
+ border: 2px solid hsl(190, 100%, 50%);
+ width: 160px;
+ /* margin: 0 50% 0 40%; */
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ 
+ padding-bottom: 5px;
+}
+
+.fone{
+ color: hsl(0, 0%, 100%);
+ 
+ margin-left: 30px;
+ 
+}
+
+.ftwo{
+ color: hsl(0, 0%, 100%);
+ width: 90%;
+ margin-left: 30px;
+ 
+}
+.fthree{
+ color: hsl(0, 0%, 100%);
+ width: 90%;
+ margin-left: 30px;
+ 
+}
+
+.ffour{
+ text-align: center;
+ color: hsl(0, 0%, 100%);
+ width: 90%;
+ margin-left: 30px;
+ 
+}
+.people{
+ padding: 0 30px 10px 30px;
+}
