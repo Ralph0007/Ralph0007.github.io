@@ -44,9 +44,10 @@
   display: flex;
   color: hsl(0, 0%, 100%);
   /* text-align: center; */
-  /* align-items: flex-start; */
+  align-items: center;
   justify-content: center;
-  width: 1440px;
+  
+  
   
  }
  .bannerfour{
