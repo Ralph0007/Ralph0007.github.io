@@ -16,31 +16,36 @@
 
 .bannerzero{
  display: flex;
- padding-top:20px ;
+ padding-top:20px;
+ background: hsl(217, 28%, 15%);
+ margin: 0;
+ width: 1440px;
+
 }
-/* .rhead{
- justify-content: flex-end;
-} */
+
  .bannerone{
   color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 50px;
   display: flex;
- }
- .bannertwo{
+  
+}
+.bannertwo{
   color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 50px;
   display: flex;
   justify-content: flex-start;
- }
- 
- .bannerthree{
+  width: 1440px;
+}
+
+.bannerthree{
   display: flex;
   color: hsl(0, 0%, 100%);
   /* text-align: center; */
   /* align-items: flex-start; */
   justify-content: center;
+  width: 1440px;
   
  }
  .bannerfour{
@@ -50,7 +55,22 @@
   
  }
  
- .bannersix{
+ .bannerfive{
+  
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  background: hsl(216, 53%, 9%);
+  border-radius: 15px;
+  padding: 40px;
+  margin-left: 20%;
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  flex-direction: column;
+ }
+ 
+ /* .bannersix{
   display: flex;
   background: hsl(216, 53%, 9%);
   transform: translateY(200px);
@@ -59,7 +79,11 @@
   position: relative;
   padding-top: 200px;
 
- }
+} */
+.foot{
+  display: flex;
+  transform: translateY(450px);
+}
 }
 
 
@@ -114,19 +138,20 @@ a
  color: hsl(0, 0%, 100%);
 }
 .lhead{
- font-size: 24px;
+ font-size: 34px;
  color: hsl(0, 0%, 100%);
- margin: 0 0 0 0;
- background: hsl(217, 28%, 15%);
+ margin: 20px 0 0 10px;
+ /* background: hsl(217, 28%, 15%); */
  flex: 2;
-
+ 
 }
 
 .rhead{
- color: hsl(0, 0%, 100%);
- float: right;
- font-size: 14px;
- word-spacing: 90px;
+  color: hsl(0, 0%, 100%);
+  float: right;
+  font-size: 14px;
+  word-spacing: 90px;
+  margin: -10px 0 0 10px;
 }
 
 .dintro{
@@ -164,17 +189,23 @@ header{
  height: 50px;
  border-radius:23px;
  color: hsl(0, 0%, 100%);
- /* background-color: hsl(198, 60%, 50%); */
  border: none;
  margin-top: 20px;
- background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+ background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%)); 
 }
 
+
+
+
+
+
+
+
+
 .aintro{
- width: 220px;
+ width: 300px;
  height: 50px;
  border-radius:23px;
- /* color: hsl(0, 0%, 100%); */
  color: black;
  background:hsl(0, 0%, 100%);
  border: none;
@@ -206,9 +237,10 @@ header{
 .sone{
  padding: 50px;
  flex: 2;
+ 
 }
 .stwo{
- padding: 40px;
+ padding: 50px;
  flex: 2;
 }
 .sthree{
@@ -216,7 +248,7 @@ header{
  flex: 2;
 }
 .sfour{
- padding: 55px;
+ padding: 50px;
  flex: 2;
 }
 
@@ -232,17 +264,7 @@ header{
  width: 50px;
  
 }
-.bannerfive{
- 
- color: hsl(0, 0%, 100%);
- text-align: center;
- background: hsl(216, 53%, 9%);
- border-radius: 15px;
- padding: 40px;
- margin: 20px;
- position: absolute;
- z-index: 1;
-}
+
 .sfive{
  flex: 1;
  
@@ -305,6 +327,7 @@ border-radius: 5px;
  color: hsl(0, 0%, 100%);
  
  margin-left: 30px;
+ margin-top: -30px;
  
 }
 
