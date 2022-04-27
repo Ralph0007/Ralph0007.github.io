@@ -12,6 +12,7 @@
  font-size: 14px;
  /* font-family: Arial, Helvetica, sans-serif; */
  font-family: Arial, Helvetica, sans-serif;
+ background: hsl(216, 53%, 9%);
 }
 
 .bannerzero{
@@ -36,7 +37,7 @@
   padding: 50px;
   display: flex;
   justify-content: flex-start;
-  width: 1440px;
+  
 }
 
 .bannerthree{
@@ -60,7 +61,7 @@
   display: flex;
   color: hsl(0, 0%, 100%);
   text-align: center;
-  background: hsl(216, 53%, 9%);
+  background: hsl(219, 30%, 12%);
   border-radius: 15px;
   padding: 40px;
   margin-left: 20%;
@@ -69,65 +70,18 @@
   justify-content: center;
   flex-direction: column;
  }
- 
- /* .bannersix{
-  display: flex;
-  background: hsl(216, 53%, 9%);
-  transform: translateY(200px);
-  height: 500px;
-  margin-bottom: -10px;
-  position: relative;
-  padding-top: 200px;
 
-} */
 .foot{
   display: flex;
-  transform: translateY(450px);
+  transform: translateY(480px);
+
 }
 }
 
-
-
-/* @media(max-width:1440px){
- body{
- font-size: 14px;
-
- font-family: Arial, Helvetica, sans-serif;
+.ceoban{
+  display: flex;
 }
 
-.bannerzero{
- display: flex;
- padding-top:20px ;
-}
-
- .bannerone{
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  padding: 50px;
-  display: flex;
- }
- .bannertwo{
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  padding: 50px;
-  display: flex;
-  justify-content: flex-start;
- }
- 
- .bannerthree{
-  display: flex;
-  color: hsl(0, 0%, 100%);
-  justify-content: center;
- 
- }
- .bannerfour{
-  display: flex;
-  color: hsl(0, 0%, 100%);
-  justify-content: space-between;
- 
- }
-
-} */
 
 body{
  background: hsl(218, 28%, 13%);
@@ -146,13 +100,19 @@ a
  
 }
 
-.rhead{
-  color: hsl(0, 0%, 100%);
-  float: right;
-  font-size: 14px;
-  word-spacing: 90px;
-  margin: -10px 0 0 10px;
+.heading{
+  display: flex;
+  /* justify-content: space-between; */
+  font-family: Arial, Helvetica, sans-serif;
 }
+.rhead{
+  display: flex;
+  
+}
+li{
+  padding: 20px;
+}
+
 
 .dintro{
  color: hsl(0, 0%, 100%);
@@ -214,25 +174,7 @@ header{
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-/* .banner{
- color: white;
- text-align: center;
- padding: 50px;
-} */
 
-/* .bannerone{
- color: white;
- text-align: center;
- padding: 50px;
- display: flex;
-}
-.bannertwo{
- color: white;
- text-align: center;
- padding: 50px;
- display: flex;
- justify-content: flex-start;
-} */
 
 .sone{
  padding: 50px;
@@ -253,12 +195,7 @@ header{
 }
 
 
-/* .bannerfour{
- display: flex;
- color: white;
- justify-content: space-between;
- 
-} */
+
 .people{
  border-radius: 50%;
  width: 50px;
